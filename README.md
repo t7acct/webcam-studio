@@ -4,6 +4,10 @@ A native macOS webcam recorder with lighting controls and background effects. Bu
 
 Requires an Apple silicon Mac running macOS 15 or later and Xcode to build.
 
+![Original scene beside lighting, blur, colour and image background effects](docs/demo.gif)
+
+The animation uses a drawn scene and a fixed person mask with the app's Core Image filters. It illustrates the controls; live segmentation quality depends on the camera image. See [measured results and limitations](docs/VERIFICATION.md).
+
 ## Build
 
 ```sh
@@ -77,3 +81,7 @@ Filtering cannot recover detail the camera did not capture. Low light, USB stall
 ## References
 
 [Core Image filters](https://developer.apple.com/library/archive/documentation/GraphicsImaging/Reference/CoreImageFilterReference/index.html), [person segmentation](https://developer.apple.com/documentation/vision/vngeneratepersonsegmentationrequest), [capture-session timestamps](https://developer.apple.com/documentation/avfoundation/avassetwriter/startsession(atsourcetime:)), and [video colour metadata](https://developer.apple.com/documentation/avfoundation/tagging-media-with-video-color-information).
+
+## Licence
+
+[MIT](LICENSE), copyright 2026 Tamim Atiqur.
