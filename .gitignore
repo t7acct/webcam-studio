@@ -1,0 +1,15 @@
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+*.xcuserstate
+*.mp4
+*.mov
+*.m4a
+*.wav
+*.partial.mp4
+.env
+.env.*
+*.p12
+*.mobileprovision
+*.provisionprofile

@@ -1,0 +1,32 @@
+// !$*UTF8*$!
+{
+ archiveVersion = 1; classes = {}; objectVersion = 56; objects = {
+        490D06C65B1ED102E71B1CD7 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "BackgroundEffects.swift"; sourceTree = "<group>"; };
+        5ED8D459B5887485B9D6CEAA = {isa = PBXBuildFile; fileRef = 490D06C65B1ED102E71B1CD7; };
+		A11AAC081274E3FF993D5BA0 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CaptureEngine.swift"; sourceTree = "<group>"; };
+		18125F5B6B17C58905D10AD0 = {isa = PBXBuildFile; fileRef = A11AAC081274E3FF993D5BA0; };
+		819A60B52E9FFDCBBE8BA017 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Enhancement.swift"; sourceTree = "<group>"; };
+		6BE455E9577DE62C49006BA1 = {isa = PBXBuildFile; fileRef = 819A60B52E9FFDCBBE8BA017; };
+		EC31B8A1E8AF179C8BE843D9 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MetalPreview.swift"; sourceTree = "<group>"; };
+		D23C428C11768B206E8D3EB6 = {isa = PBXBuildFile; fileRef = EC31B8A1E8AF179C8BE843D9; };
+		F43555EC06713F9326FDB1D5 = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Recording.swift"; sourceTree = "<group>"; };
+		EAFECF8B42A8BA57888B8EEF = {isa = PBXBuildFile; fileRef = F43555EC06713F9326FDB1D5; };
+		64D61D945E16B58362E82F6B = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebcamStudioApp.swift"; sourceTree = "<group>"; };
+		560CF665A6D73148135CDFC9 = {isa = PBXBuildFile; fileRef = 64D61D945E16B58362E82F6B; };
+		BCE16DD0260827ECF338C787 = {isa = PBXGroup; children = (490D06C65B1ED102E71B1CD7,A11AAC081274E3FF993D5BA0,819A60B52E9FFDCBBE8BA017,EC31B8A1E8AF179C8BE843D9,F43555EC06713F9326FDB1D5,64D61D945E16B58362E82F6B); path = Sources; sourceTree = "<group>"; };
+		7D1043473D55BFA90E8530D3 = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Webcam Studio.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBDC4F23F93125BBEEAE800C = {isa = PBXGroup; children = (7D1043473D55BFA90E8530D3); name = Products; sourceTree = "<group>"; };
+		DC76E9F0C0006E8F919E0C51 = {isa = PBXGroup; children = (BCE16DD0260827ECF338C787,FBDC4F23F93125BBEEAE800C); sourceTree = "<group>"; };
+		FE77C82BB2A42EFEEC930360 = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (5ED8D459B5887485B9D6CEAA,18125F5B6B17C58905D10AD0,6BE455E9577DE62C49006BA1,D23C428C11768B206E8D3EB6,EAFECF8B42A8BA57888B8EEF,560CF665A6D73148135CDFC9); runOnlyForDeploymentPostprocessing = 0; };
+		7561BFB015D8F536760CB671 = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		0189424A5A60FED329FA868E = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+		89E1FD6268CC0F221A2BE178 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		E6DE6C99132752C914FEF632 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+		FBD3510CED826C9DAA696E48 = {isa = XCConfigurationList; buildConfigurations = (89E1FD6268CC0F221A2BE178,E6DE6C99132752C914FEF632); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		7082CC0B6FC1282FCEABD07A = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES;ARCHS = arm64; PRODUCT_NAME = "Webcam Studio"; EXECUTABLE_NAME = WebcamStudio; PRODUCT_BUNDLE_IDENTIFIER = "uk.tamim.webcam-studio"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_ENTITLEMENTS = Resources/WebcamStudio.entitlements; CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; DEVELOPMENT_TEAM = ""; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = NO; COMBINE_HIDPI_IMAGES = YES; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-Onone";}; name = Debug; };
+		639A7CA24D39909E713B47F7 = {isa = XCBuildConfiguration; buildSettings = {SDKROOT = macosx; MACOSX_DEPLOYMENT_TARGET = 15.0; SWIFT_VERSION = 5.0; CLANG_ENABLE_MODULES = YES;ARCHS = arm64; PRODUCT_NAME = "Webcam Studio"; EXECUTABLE_NAME = WebcamStudio; PRODUCT_BUNDLE_IDENTIFIER = "uk.tamim.webcam-studio"; GENERATE_INFOPLIST_FILE = NO; INFOPLIST_FILE = Resources/Info.plist; CODE_SIGN_ENTITLEMENTS = Resources/WebcamStudio.entitlements; CODE_SIGN_STYLE = Manual; CODE_SIGN_IDENTITY = "-"; DEVELOPMENT_TEAM = ""; ENABLE_APP_SANDBOX = NO; ENABLE_HARDENED_RUNTIME = NO; COMBINE_HIDPI_IMAGES = YES; SWIFT_EMIT_LOC_STRINGS = YES; SWIFT_OPTIMIZATION_LEVEL = "-O";}; name = Release; };
+		DBC1F132A3B6D94B1DF33607 = {isa = XCConfigurationList; buildConfigurations = (7082CC0B6FC1282FCEABD07A,639A7CA24D39909E713B47F7); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		0E8A3AD980EC179856012B7E = {isa = PBXNativeTarget; buildConfigurationList = DBC1F132A3B6D94B1DF33607; buildPhases = (FE77C82BB2A42EFEEC930360,7561BFB015D8F536760CB671,0189424A5A60FED329FA868E); buildRules = (); dependencies = (); name = "Webcam Studio"; productName = "Webcam Studio"; productReference = 7D1043473D55BFA90E8530D3; productType = "com.apple.product-type.application"; };
+		98F54143AB4E86B28C3AFEE0 = {isa = PBXProject; attributes = {LastUpgradeCheck = 2700; }; buildConfigurationList = FBD3510CED826C9DAA696E48; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en, Base); mainGroup = DC76E9F0C0006E8F919E0C51; productRefGroup = FBDC4F23F93125BBEEAE800C; projectDirPath = ""; projectRoot = ""; targets = (0E8A3AD980EC179856012B7E); };
+ }; rootObject = 98F54143AB4E86B28C3AFEE0;
+}
